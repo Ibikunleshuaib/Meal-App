@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;}
+
+.header{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    height: 60px;
+    font-size: 120%;
+}
+
+.food-list{
+    background-color: white;
+    color: crimson;
+    list-style: none;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navbar{
+    float: right;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+.image-content{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(8.jpg);
+	background-size: cover;
+	background-position: center;
+    height: 85vh;
+}
+
+.image-content h1{
+    margin: 0;
+	margin-bottom: 20px; 
+	color: #fff;
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+    word-spacing: 4px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.food-list li{
+    display: inline-block;
+}
+.food-list a{
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+    margin-right: 50px;
+}
+
+.message2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    height: 25px;
+    font-size: 120%;
+    }
+    .link-list ul{
+        padding: 0;   
+    }
+    .link-list li{
+        float: left;
+        width: 50%;
+        list-style: none;
+        
+    }
+
+    .link-list a{
+        color:White;
+        text-decoration: none;
+        font-size: 18px;
+        }
+    .link1{
+        background-color:  crimson;
+        height: 50px;
+        
+    }
+    .link2{
+        background-color:  rgb(220, 20, 87);
+        height: 50px;
+        
+    }
+
+    .link1 a{
+        top: 50%;
+        left: 50%;
+        position: relative;
+        
+
+    }
+    .link2 a{
+        height: 50px;
+        top: 50%;
+        left: 50%;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .form{
+		position: relative;
+		background: hsla(11, 93%, 40%, 0.7);
+		width: 250px;
+		margin: 0 auto 100px;
+        padding: 40px;
+		text-align: center;
+		border-radius: 10px;
+        border: 2px solid #e6f2ff;
+        top: 12%;
+        
+        
+		
+	}
+	.form h3{
+	color:  white;
+	margin-bottom: 10px;
+	margin-top: 0;
+
+	}
+.form input {
+		font-family: 'lato', sans-serif;
+		background: white;
+		width: 100%;
+		border: 0;
+		margin: 0 0 7px 0;
+		padding: 4px; 
+		box-sizing: border-box;
+		font-size: 14px;
+		border-radius: 5px;
+		border: 1px solid crimson;
+
+}
+.form button {
+		background-color: crimson;
+		font-family: 'lato', sans-serif;
+		outline: 0;
+		width: 100%;
+		border: 0;
+		padding: 15px;
+		color: white;
+		font-size: 14px;
+		cursor: pointer;
+		margin-bottom: 10px;
+		border-radius: 5px;
+
+		
+}
+
+
+.form .message{
+	margin: 15px 0 0;
+	color: white;
+	font-size: 15px;
+}
+
+.form .message a{
+	color:white;
+	text-decoration: none;
+}
+.shift-down{
+    position: relative;
+    top:100px;
+}
